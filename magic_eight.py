@@ -18,7 +18,7 @@ def provide_answer():
 # returns: none
 def check_question(question):
     if question[-1] == "?":
-        provide_answer()
+        print(provide_answer())
     elif question == 'quit':
         pass
     else:
