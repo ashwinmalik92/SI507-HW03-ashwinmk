@@ -12,4 +12,20 @@ answers = ["It is certain.","It is decidedly so.", "Without a doubt.", "Yes- def
 def provide_answer():
     index = random.randint(0,19)
     return answers[index]
-    
+
+# checks if user asked a question
+# param: question
+# returns: none
+def check_question(question):
+    if question[-1] == "?":
+        provide_answer()
+    elif question == 'quit':
+        pass
+    else:
+        print('I\'m sorry, I can only answer questions.')
+
+# main program
+question = ''
+while question != 'quit':
+    question = get_question()
+    check_question(question)
