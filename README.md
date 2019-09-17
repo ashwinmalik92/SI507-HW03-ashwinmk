@@ -4,3 +4,5 @@ Magic 8-Ball program that provides a random answer to a user question. Prompts u
 [Collaborator - UM Name - Section - GitHub ID]
 
 Ashwin Malik - ashwinmk - Section 002 - ashwinmalik92
+
+Abraham Rycus - arycus - Section 002 - arycus
